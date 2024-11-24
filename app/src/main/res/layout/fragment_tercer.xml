@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TercerFragment"
+    android:background="@color/rojo">
+
+    <!-- Texto grande centrado -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="3"
+        android:textSize="250sp"
+        android:textColor="#FFFFFF" />
+
+    <!-- LinearLayout para los botones -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center|bottom"
+        android:layout_marginBottom="40dp">
+
+        <!-- Botón de "Atrás" -->
+        <Button
+            android:id="@+id/btnAtras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atrás" />
+
+        <!-- Botón de "Siguiente" -->
+        <Button
+            android:id="@+id/btnInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home" />
+    </LinearLayout>
+
+</FrameLayout>
